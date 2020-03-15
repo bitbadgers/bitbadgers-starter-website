@@ -69,7 +69,7 @@
         width:100%;
         padding:0;
         margin:0;
-        disp
+    
     }
 }
 .info h1{
@@ -135,10 +135,20 @@ footer{
     position:relative;
     justify-content:space-around;
 }
+footer nav li{
+    padding:30px;
+    display:inline-block;
+}
 footer nav li a{
     text-decoration:none;
     color:grey;
 }
+footer nav li a:hover{
+    background:#333;
+    color:#fff;
+    padding:20px 5px;;
+}
 footer p{
-    padding-top:20px;
+    padding-top:30px;
+
 }
